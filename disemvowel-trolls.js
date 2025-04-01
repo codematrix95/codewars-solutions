@@ -8,8 +8,6 @@ Note: for this kata y isn't considered a vowel.
 */
 
 // SOLUTION:
-const str = 'How are you doing?';
-
 const disemvowel = (str) => {
     const vowels = /[AEIOUaeiou]/gm;
     const replaceVowel = str.replace(vowels, '');
@@ -18,4 +16,4 @@ const disemvowel = (str) => {
     return str;
 }
 
-disemvowel(str);
+disemvowel('How are you doing?');
